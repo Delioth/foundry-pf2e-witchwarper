@@ -1,0 +1,84 @@
+{
+  "name": "pf2e-witchwarper",
+  "title": "PF2e Witchwarper",
+  "description": "A module to implement the Witchwarper class & associated options.",
+  "author": "Delioth",
+  "version": "1.0.0",
+  "compatibleCoreVersion": "9",
+  "minimumCoreVersion": "9",
+  "packs": [
+    {
+      "label": "Witchwarper - Actions",
+      "type": "Item",
+      "name": "witchwarper-actions",
+      "path": "./packs/witchwarper-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    },
+    {
+      "label": "Witchwarper - Class",
+      "type": "Item",
+      "name": "witchwarper-class",
+      "path": "./packs/witchwarper-class.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    },
+    {
+      "label": "Witchwarper - Effects",
+      "type": "Item",
+      "name": "witchwarper-effects",
+      "path": "./packs/witchwarper-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    },
+    {
+      "label": "Witchwarper - Features",
+      "type": "Item",
+      "name": "witchwarper-features",
+      "path": "./packs/witchwarper-features.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    },
+    {
+      "label": "Witchwarper - Feats",
+      "type": "Item",
+      "name": "witchwarper-feats",
+      "path": "./packs/witchwarper-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    },
+    {
+      "label": "Witchwarper - Spells",
+      "type": "Item",
+      "name": "witchwarper-spells",
+      "path": "./packs/witchwarper-spells.db",
+      "system": "pf2e",
+      "package": "pf2e-witchwarper",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-witchwarper": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "witchwarper": "Witchwarper"
+        },
+        "spellTraits": {
+          "witchwarper": "Witchwarper"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Delioth/foundry-pf2e-witchwarper",
+  "manifest": "https://raw.githubusercontent.com/Delioth/foundry-pf2e-witchwarper/main/module.json",
+  "download": "https://github.com/Delioth/foundry-pf2e-witchwarper/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "3.8"
+}
